@@ -1,0 +1,6 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* optional extras that won’t fight Tailwind */
+:root { color-scheme: light dark; }
+html { scroll-behavior: smooth; }
