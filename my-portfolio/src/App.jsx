@@ -41,10 +41,12 @@ const gallery = [
 
 const skills = [
   { name: "React / Next.js", level: 90, group: "Frontend" },
-  { name: "TypeScript", level: 85, group: "Frontend" },
+  { name: "MUI", level: 85, group: "Frontend" },
   { name: "Tailwind CSS", level: 88, group: "Frontend" },
   { name: "Node.js / Express", level: 92, group: "Backend" },
   { name: "NestJS", level: 80, group: "Backend" },
+  { name: "PHP", level: 80, group: "Backend" },
+  { name: "Python", level: 80, group: "Backend" },
   { name: "SQL", level: 86, group: "Data" },
   { name: "MongoDB", level: 82, group: "Data" },
   { name: "Docker", level: 78, group: "DevOps" },
