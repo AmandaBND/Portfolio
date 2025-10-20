@@ -764,7 +764,7 @@ function Contact() {
                 Send
               </button>
               <p className="text-xs text-neutral-300">
-                This form is a demo. Hook it to your backend or an email service.
+                This form is a demo.
               </p>
             </div>
           </motion.form>
