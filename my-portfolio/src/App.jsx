@@ -36,8 +36,7 @@ const gallery = [
   { id: "movieflix",      src: "/MovieFlix.png",       caption: "MovieFlix – Search" },
   { id: "disease",        src: "/MultiDiseaseSystem.png", caption: "Disease – Prediction" },
   { id: "trip-safety",    src: "/TripSafetyAI.png",    caption: "Trip Safety – Risk result" },
-  { id: "wealthwave",     src: "/WealthWave.png",      caption: "WealthWave – Settings" },
-];
+  { id: "wealthwave",     src: "/WealthWave.png",      caption: "WealthWave – Settings" },  { id: "edibear",        src: "/Artboardedibear.png", caption: "Edibear – Platform" },];
 
 const skills = [
   { name: "React / Next.js", level: 90, group: "Frontend" },
@@ -115,6 +114,16 @@ const projects = [
     imageId: "wealthwave",
     repo: "https://github.com/AmandaBND/WealthWave",
     tags: ["Mobile Apps","Android","Finance","Offline"],
+  },
+  {
+    title: "Edibear – Kids Learning & Resource Platform",
+    description:
+      "Developed and enhanced a pre-existing educational web platform based on client provided Figma designs. Implemented frontend UI improvements, new e-commerce functionalities, product and order management modules, category/grade/language based filtering, and educational activity pages. Modified backend functionalities and database structures to support cart management, order processing, product administration, and content management. Collaborated with clients through multiple review cycles to implement design revisions and ensure compliance with project requirements. Deployed the application on a cPanel hosting environment for client review and testing.",
+    stack: ["PHP","MySQL","HTML5","CSS3","JavaScript","Bootstrap","jQuery","phpMyAdmin","cPanel","Figma"],
+    imageId: "edibear",
+    repo: "https://github.com/AmandaBND/edibear",
+    website: "https://edibear.groovymark.com/",
+    tags: ["Full-stack","E-commerce","Education","Frontend","Backend"],
   },
 ];
 
@@ -534,6 +543,16 @@ function Projects({ activeFilter, setActiveFilter, projects }) {
                 >
                   See image <ExternalLink className="w-3 h-3" />
                 </a>
+                {p.website && (
+                  <a
+                    href={p.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm underline underline-offset-4 text-pink-300 hover:text-pink-200"
+                  >
+                    Website <ExternalLink className="w-3 h-3" />
+                  </a>
+                )}
                 <a
                   href={p.repo}
                   className="inline-flex items-center gap-1 text-sm underline underline-offset-4 text-pink-300 hover:text-pink-200"
