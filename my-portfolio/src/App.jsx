@@ -13,7 +13,7 @@ const profile = {
   location: "Colombo, Sri Lanka",
   email: "amandalakshani699@gmail.com",
   phone: "+94 70 495 4160",
-  avatar: "/avatar.jpeg",
+  avatar: "/avatar.png",
   socials: {
     github: "https://github.com/AmandaBND",
     linkedin:
